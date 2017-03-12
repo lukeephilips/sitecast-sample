@@ -1,16 +1,24 @@
+html{
+  background-color: black;
+}
 body {
-/*background-color: black;
-color: white;*/
+  background: url("http://updatethemetroplex.com/wp-content/uploads/2016/01/basketball-shutterstock_272534126-940x706.jpg") no-repeat center  fixed;
+  background-size: cover;
 }
 .container{
   width: 95%;
   padding: 2%;
-
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
 }
 .flex-container{
   height:1000px;
   display:flex;
   flex-direction:column;
+}
+
+h4{
+  text-align: center
 }
 li{
   list-style: none;
@@ -25,6 +33,7 @@ li{
   flex-direction: column;
   text-align: center;
 }
+
 .team0{
   justify-content:flex-end;
 }
@@ -39,9 +48,7 @@ li{
   padding-bottom: 10px;
   border-bottom: 2px solid black;
 }
-h4{
-  text-align: center
-}
+
 .lost{
   color: grey;
   text-decoration: line-through;
@@ -49,6 +56,17 @@ h4{
 .won{
   color: green;
   font-weight: bold;
+}
+.header{
+color: maroon;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+background-color: maroon;
+color: white;
+}
+
+.foot{
+  margin-top: 2%;
 }
 .footer{
   font-size: 2em;
